@@ -1,0 +1,174 @@
+.modal-content{
+  background-color: #F0E5C9;
+}
+@font-face {
+  font-family: mine;
+  src:url(../Charwid.ttf);
+
+}
+p{
+  font-size:.7em;
+  text-indent: 20px;
+  font-family:"Montserrat";
+}
+
+.modal-header{
+  background-color:#9BA657;
+  border-radius: 5px 5px 0 0;
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+.modal-header h2{
+  font-size:4em;
+  font-family: mine;
+  letter-spacing: normal;
+  line-height: 100%;
+  margin-left: 10px;
+}
+
+.modal-header i{
+  font-size:1.2em;
+  margin-left:15px;
+  font-family:"Montserrat";
+}
+/* nav bar bg, border color on bottom*/
+.navbar{
+  background-color:	#9BA657;
+  border-bottom:2px solid #4f5b66;
+}
+
+/*colored link text, larger size font*/
+#navbar a{
+  color: #594433;
+  font-size:1.3em;
+  font-family:sans-serif;
+  font-weight: 600;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+/*color change for text and background when hovering*/
+#navbar a:hover{
+  background: #A68C69;
+}
+/* color of lines when hovered over*/
+.navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse, .navbar-toggle:focus .icon-bar{
+  background-color: ;
+}
+
+/*icon bg color when hovered over*/
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+  background-color: ;
+}
+
+/*normal color of lines*/
+.navbar-inverse .navber-toggle .icon-bar{
+  color: ;
+}
+
+/*normal icon color when normal*/
+.navbar-inverse .navbar-toggle{
+  background-color: ;
+  border-color: ;
+}
+
+/*color of project name text when normal*/
+.navbar-header .navbar-brand{
+  color: #594433;
+  font-size:3em;
+  font-family:"Merienda One";
+}
+
+/*color of the project name text when hovered over*/
+.navbar-header .navbar-brand:hover{
+  color: #F4F4F4;
+}
+
+.jumbotron{
+  position: relative;
+  background: url(../img/gardengrocersmap.png) top left;
+  height: 550px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1{
+  text-align:center;
+  font-family:"Merienda One";
+  font-style:italic;
+  font-size:2.3em;
+  color:#594433;
+}
+
+
+.img-responsive{
+  margin:0 auto;
+  display:block;
+}
+
+.col-xs-hover{
+  filter:drop-shadow(4px 4px 5px grey);
+}
+body{
+  background-color:#A68C69;
+}
+
+
+.map{
+  width: 100%;
+}
+
+.container-fluid{
+  width:100%;
+}
+
+#head{
+  color:#F4F4F4;
+  text-align:left;
+}
+
+.icon{
+  display: inline-block;
+  width: 25%;
+  height: 25%;
+}
+
+#contactinfo h2{
+  font-family:"Montserrat";
+  font-weight: 900;
+  font-size:2em;
+  text-align:left;
+  color:#F4F4F4;
+}
+
+
+
+#formhead{
+  font-family:"mine";
+  font-size:3.5em;
+  color:#F4F4F4;
+  text-align:center;
+}
+
+.control-label{
+  color:#F4F4F4;
+  font-family:"Montserrat";
+}
+.icons img:hover{
+  opacity:.6;
+}
+
+.form-control{
+  background-color:#F0E5C9;
+}
+
+.btn{
+  background-color:#F0E5C9;
+  color:#594433;
+  border-color: #F0E5C9;
+}
+
+.btn:hover{
+  background-color:#F4F4F4;
+}
