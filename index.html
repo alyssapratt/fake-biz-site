@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Garden Grocers</title>
+    <title>About Us - Garden Grocers</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="css/homestyle.css" rel="stylesheet">
+    <link href="css/aboutusstyle.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
 
 
@@ -42,8 +42,8 @@
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="aboutuspage.html">About</a></li>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="#">About</a></li>
               <li><a href="contactus.html">Contact</a></li>
               <li><a href="productpage.html">Shop</a></li>
             </ul>
@@ -53,59 +53,87 @@
       <br>
       <br>
 
-      <div class = "jumbotron" id = "produce">
-      </div>
-      <div class = "jumbotron" id = "welcome">
-        <div class = "row">
-          <div class = "col-sm-12">
-            <h1>WELCOME!</h1>
-            <h4>Garden Grocers is a grocery store committed to providing fresh and healthy food from our affiliated farm.</h4>
-          </div>
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item img-responsive active">
+                          <img src="img/tomatoes.JPG" alt="Close-up Tomatoes" id = "gardenpic">
+                          <div class="carousel-caption">
+                            <h3>Fresh and Pampered</h3>
+                            <p>Showered with affection (and water)</p>
+                          </div>
+                        </div>
+
+
+                        <div class="item img-responsive">
+                          <img src="img/soniatomatoes.jpg" alt="Family with Tomatoes" id = "gardenpic">
+                          <div class="carousel-caption">
+                            <h3>A Family Commitment</h3>
+                            <p>We all love our tomatoes</p>
+                          </div>
+                        </div>
+
+                        <div class="item img-responsive">
+                          <img src="img/crosbyandapples.jpg" alt="Crosby the dog with Apples" id = "gardenpic">
+                          <div class="carousel-caption">
+                            <h3>Fans of Our Food</h3>
+                            <p>Even the dog loves our delicious apples!</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="icon-prev"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="icon-next"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+
         </div>
-      </div>
-      <div class = "jumbotron" id = "icons">
-        <div class = "row">
-          <div class = "col-sm-4">
-            <img src = "img/moneyicon.png" width = "180px" class = "img-responsive icon">
+        <br>
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-sm-12" id = "intro">
+              <h4>For 100 years...</h4>
+              <h4>We've been here for you</div>
+            </div>
+            <br>
+            <div class = "row" id = "info">
+              <div class = "col-sm-5">
+                <p>Farming has been the passion of this Oregonian family for over 100 years. In 1907, Garden Grocers started as a produce stand selling cucumbers. Soon after, our great grandparents, Mr. and Mrs. Scott, with their daughter Amy, moved to a new location, a small space with dirt floors and chicken-wire frame doors at the current site of Mark’s Mattresses, and began to sell any local produce they could get their hands on.
+                </p>
+                <p> From then on, the store kept growing. With the birth of a grandson in April of 2011, we are looking forward to the possibility of a farming legacy! From award-winning techniques to time-honored integrity, we strive to provide the best produce farming practices in the Pacific Northwest.
+                </p>
+              </div>
+              <div class= "col-sm-7">
+                <div class = "row">
+                  <div class = "col-sm-12" id = "pic">
+                    <img src= "img/alyssa.jpg"  class = "img img-responsive">
+                    <br> <br>
+                    <h4>4 Goldfield Rd.</h4>
+                    <h4>Portland, OR 97229</h4>
+                    <h4>503-560-3487</h4>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div class = "col-sm-4">
-            <img src = "img/globeicon.png" width = "150px" class = "icon img-responsive">
-          </div>
-          <div class = "col-sm-4">
-            <img src = "img/apronicon.png" width = "150px" class = "icon img-responsive">
-          </div>
+
+
         </div>
-        <div class = "row">
-          <div class = "col-sm-4">
-            <br>
-            <p id = "iconcaption">We commit to affordable prices</p>
-          </div>
-          <div class = "col-sm-4">
-            <br>
-            <p id = "iconcaption">We utilize sustainable  practices</p>
-          </div>
-          <div class = "col-sm-4">
-            <br>
-            <p id = "iconcaption">We value our employees</p>
-          </div>
-        </div>
-      </div>
 
-    <div class = "jumbotron" id = "overhead">
-    </div>
-    <div class = "jumbotron" id = "footer">
-      <div class = "col-sm-offset-1 col-sm-5">
-        <a href ="#">thescotts@gardengrocers.com</a>
-        <h2>502-560-3497</h2>
-      </div>
-      <div class = "col-sm-offset-1 col-sm-5">
-        <h3>Questions? Comments? </h3>
-        <a  href ="contactus.html" type="button" class="btn btn-default">Let us know here</a>
-      </div>
-    </div>
-
-
-
-
+        <br>
+        <br>
     </body>
-</html>
+    </html>
